@@ -1,0 +1,414 @@
+@media screen and (min-width: 833px) {
+    .div-w {
+        position: relative;
+        background-color: var(--color-white);
+        width: 100%;
+        height: 1024px;
+        overflow: hidden;
+        text-align: left;
+        font-size: var(--font-size-mini);
+        color: var(--color-lavender);
+        font-family: var(--font-inter);
+    }
+
+    .div-m {
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 832px) {
+    .div-w {
+        display: none;
+    }
+
+    .div-m {
+        position: relative;
+    }
+}
+
+.nav-elements-child,
+.register-desk-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.register-desk-child {
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-elements-child {
+    background-color: var(--color-darkslateblue);
+    height: 140px;
+}
+
+.nav-elements-item {
+    position: absolute;
+    top: 142px;
+    left: 1316px;
+    border-top: 1.5px solid var(--color-mediumslateblue);
+    box-sizing: border-box;
+    width: 44px;
+    height: 1.5px;
+}
+
+.accueil1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+}
+
+.accueil {
+    position: absolute;
+    top: 61px;
+    left: 739px;
+    width: 53px;
+    height: 18px;
+}
+
+.activits {
+    left: 825px;
+}
+
+.activits,
+.activits2,
+.activits4,
+.the-search {
+    position: absolute;
+    top: 61px;
+    width: 63px;
+    height: 18px;
+}
+
+.activits2 {
+    left: 950px;
+    color: var(--color-mediumslateblue);
+}
+
+.activits4,
+.the-search {
+    left: 1047px;
+}
+
+.tapez {
+    display: inline-block;
+    border-style: none;
+    padding-left: 22px;
+    width: 179px;
+    border-radius: var(--br-mini);
+    background-color: var(--color-lavender);
+    width: 350px;
+    height: 50px;
+}
+
+.tapez:focus,
+.tapez:focus {
+    border: 1px solid #1067cc;
+    color: #1067cc;
+    transition: all 0.3s ease;
+}
+
+.tapez:focus::placeholder,
+.tapez:focus::placeholder {
+    padding-left: 4px;
+    color: #1067cc;
+    transition: all 0.3s ease;
+}
+
+.s-icon,
+.search,
+.tapez {
+    position: absolute;
+}
+
+.search {
+    top: 5px;
+    left: 290px;
+    border-radius: var(--br-mini);
+    background-color: var(--color-darkslateblue);
+    width: 46.67px;
+    height: 40px;
+}
+
+.s-icon {
+    height: 31.18%;
+    width: 4.95%;
+    top: 34%;
+    right: 8.07%;
+    bottom: 34.82%;
+    left: 86.98%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.rechercher {
+    position: absolute;
+    top: 48px;
+    left: 312px;
+    width: 350px;
+    height: 50px;
+    color: var(--color-darkslateblue);
+}
+
+.profile-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-lavender);
+    width: 42px;
+    height: 40px;
+}
+
+.vector-icon {
+    position: absolute;
+    height: 47.5%;
+    width: 42.86%;
+    top: 25%;
+    right: 28.57%;
+    bottom: 27.5%;
+    left: 28.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.profile,
+.vector-icon1 {
+    position: absolute;
+    top: 50px;
+    left: 1316px;
+    width: 42px;
+    height: 40px;
+}
+
+.vector-icon1 {
+    height: 45%;
+    width: 47.62%;
+    top: 27.5%;
+    right: 26.19%;
+    bottom: 27.5%;
+    left: 26.19%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.inbox {
+    position: absolute;
+    top: 50px;
+    left: 1231px;
+    width: 42px;
+    height: 40px;
+}
+
+.nav-elements-inner {
+    position: absolute;
+    top: 33px;
+    left: 48px;
+    width: 203px;
+    height: 80px;
+    object-fit: cover;
+}
+
+nav {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 100%;
+    height: 143px;
+}
+
+.lets-get-you,
+.register-with-a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+}
+
+.register-with-a {
+    top: 54px;
+    left: 24px;
+    font-size: var(--font-size-mini);
+}
+
+.form-title {
+    position: absolute;
+    top: 0;
+    left: 17px;
+    width: 300px;
+    height: 77px;
+    text-align: center;
+    font-size: 36px;
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+}
+
+.tapez1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-lavender);
+    width: 315px;
+    height: 50px;
+}
+
+.rechercher1 {
+    position: absolute;
+    top: 16px;
+    left: 22px;
+}
+
+.rechercher1 {
+    top: 152px;
+    left: 0;
+    height: 50px;
+}
+
+.rechercher1,
+.rechercher2,
+.rechercher3 {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 315px;
+}
+
+.rechercher2 {
+    position: absolute;
+    top: 214px;
+    left: 0;
+    height: 50px;
+}
+
+.rechercher3 {
+    top: 279px;
+}
+
+.rechercher3,
+.rechercher4,
+.the-search5 {
+    position: absolute;
+    left: 0;
+    height: 50px;
+}
+
+.rechercher4 {
+    top: 344px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 315px;
+}
+
+.the-search5 {
+    top: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-darkslateblue);
+    width: 262px;
+}
+
+.tapez5 {
+    position: absolute;
+    top: 15px;
+    left: 101px;
+    font-weight: 600;
+}
+
+.rechercher5,
+.the-search6 {
+    position: absolute;
+    width: 262px;
+    height: 50px;
+}
+
+.rechercher5 {
+    top: 416px;
+    left: 22px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+    cursor: pointer;
+}
+
+.the-search6 {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-lavender);
+}
+
+.tapez6 {
+    position: absolute;
+    top: 14px;
+    left: 70px;
+    font-weight: 600;
+}
+
+.google-1-icon {
+    position: absolute;
+    top: 12px;
+    left: 24px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+
+.already-have-an,
+.rechercher6 {
+    position: absolute;
+    color: var(--color-black);
+}
+
+.rechercher6 {
+    top: 476px;
+    left: 22px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 262px;
+    height: 50px;
+    font-family: var(--font-poppins);
+    cursor: pointer;
+}
+
+.already-have-an {
+    top: 572px;
+    left: 26px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+.the-form {
+    position: absolute;
+    top: 249px;
+    left: 125px;
+    width: 350px;
+    height: 592px;
+    color: var(--color-darkslateblue);
+}
+
+.saly-1-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.saly-1 {
+    position: absolute;
+    top: 162px;
+    left: 671px;
+    width: 623px;
+    height: 700px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Marionette - Excellency High School</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/register.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
+</head>
+
+<body>
+    <div class="div-w">
+        <img class="register-desk-child" alt="" src="../img/background-mriot.png" />
+
+        <nav>
+            <div class="nav-elements-child"></div>
+            <div class="nav-elements-item"></div>
+            <div class="accueil">
+                <a href="" class="accueil1">Home</a>
+            </div>
+            <div class="activits">
+                <a href="" class="accueil1">Dashboard</a>
+            </div>
+            <div class="activits2">
+                <a href="../index.html" class="accueil1">Forum</a>
+            </div>
+            <div class="activits4">
+                <a href="" class="accueil1">Library</a>
+            </div>
+            <div class="rechercher">
+                <div class="the-search"></div>
+                <input class="tapez" type="text" placeholder="Type to search">
+                <div class="search"></div>
+                <img class="s-icon" alt="" src="../img/s-icon.svg" />
+            </div>
+            <div class="profile">
+                <div class="profile-child"></div>
+                <img class="vector-icon" alt="" src="../img/profile.svg" />
+            </div>
+            <div class="inbox">
+                <div class="profile-child"></div>
+                <img class="vector-icon1" alt="" src="../img/inbox.svg" />
+            </div>
+            <img class="nav-elements-inner" alt="" src="../img/logo-mrnt.png" />
+    </div>
+    <div class="the-form">
+        <div class="form-title">
+            <div class="lets-get-you">Let's Get You In</div>
+            <div class="register-with-a">Register with a new account !</div>
+        </div>
+        <div class="rechercher1">
+            <div class="the-search1"></div>
+            <input class="tapez1" type="text" id="username" placeholder="&nbsp;User Name">
+        </div>
+        <div class="rechercher2">
+            <div class="the-search1"></div>
+            <input class="tapez1" type="email" id="email" placeholder="&nbsp;Email">
+        </div>
+        <div class="rechercher3">
+            <div class="the-search1"></div>
+            <input class="tapez1" type="text" id="password" placeholder="&nbsp;Password">
+        </div>
+        <div class="rechercher4">
+            <div class="the-search1"></div>
+            <input class="tapez1" type="text" id="confirm" placeholder="&nbsp;Confirm Password">
+        </div>
+        <div class="rechercher5">
+            <div class="the-search5"></div>
+            <b class="tapez5" type="submit" id="registerButton">Register</b>
+        </div>
+        <div class="rechercher6">
+            <div class="the-search6"></div>
+            <div class="tapez6">with google account</div>
+            <img class="google-1-icon" alt="" src="../img/google-s.png" />
+        </div>
+        <div class="already-have-an" id="alreadyHaveAn">
+            <a href="../pages/login_.html">Already have an account ? Login.</a>
+        </div>
+    </div>
+    <div class="saly-1">
+        <img class="saly-1-icon" alt="" src="../img/Saly-s.png" />
+    </div>
+    </div>
+
+    <div class="div-m">
+    </div>
+
+    <script>
+        document.getElementById('registerButton').addEventListener('click', function (event) {
+            var username = document.getElementById('username').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+            var confirm = document.getElementById('confirm').value;
+            var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+            if (username.length < 3 || username.length > 15) {
+                alert("Username must be between 3 and 15 characters long.");
+                event.preventDefault(); // Prevents form submission
+            } else if (!emailRegex.test(email)) {
+                alert("Please enter a valid email address.");
+                event.preventDefault(); // Prevents form submission
+            } else if (password.length < 8) {
+                alert("Password must be at least 8 characters long.");
+                event.preventDefault(); // Prevents form submission
+            } else if (confirm !== password) {
+                alert("Passwords do not match.");
+                event.preventDefault(); // Prevents form submission
+            }
+            // If the username, email, and password are valid, the form will submit normally.
+        });
+    </script>
+</body>
+
+</html>

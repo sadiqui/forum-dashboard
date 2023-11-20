@@ -1,0 +1,391 @@
+@media screen and (min-width: 833px) {
+    .div-w {
+        position: relative;
+        background-color: var(--color-white);
+        width: 100%;
+        height: 1024px;
+        overflow: hidden;
+        text-align: left;
+        font-size: var(--font-size-mini);
+        color: var(--color-black);
+        font-family: var(--font-poppins);
+    }
+
+    .div-m {
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 832px) {
+    .div-w {
+        display: none;
+    }
+
+    .div-m {
+        position: relative;
+    }
+}
+
+.nav-elements-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-darkslateblue);
+    width: 100%;
+    height: 100%;
+}
+
+.nav-elements-item {
+    position: absolute;
+    top: 142.25px;
+    left: 1315.25px;
+    border-top: 1.5px solid var(--color-mediumslateblue);
+    box-sizing: border-box;
+    width: 43.5px;
+    height: 1.5px;
+}
+
+.accueil1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+}
+
+.accueil {
+    position: absolute;
+    top: 61px;
+    left: 739px;
+    width: 53px;
+    height: 18px;
+}
+
+.activits {
+    left: 825px;
+}
+
+.activits,
+.activits2,
+.activits4,
+.the-search {
+    position: absolute;
+    top: 61px;
+    width: 63px;
+    height: 18px;
+}
+
+.activits2 {
+    left: 950px;
+    color: var(--color-mediumslateblue);
+}
+
+.activits4,
+.the-search {
+    left: 1047px;
+}
+
+.tapez4 {
+    display: inline-block;
+    border-style: none;
+    padding-left: 22px;
+    width: 179px;
+    border-radius: var(--br-mini);
+    background-color: var(--color-lavender);
+    width: 350px;
+    height: 50px;
+}
+
+.tapez4:focus,
+.tapez4:focus {
+    border: 1px solid #1067cc;
+    color: #1067cc;
+    transition: all 0.3s ease;
+}
+
+.tapez4:focus::placeholder,
+.tapez4:focus::placeholder {
+    padding-left: 4px;
+    color: #1067cc;
+    transition: all 0.3s ease;
+}
+
+.s-icon,
+.search,
+.tapez4 {
+    position: absolute;
+}
+
+.search {
+    top: 5px;
+    left: 290px;
+    border-radius: var(--br-mini);
+    background-color: var(--color-darkslateblue);
+    width: 46.67px;
+    height: 40px;
+}
+
+.s-icon {
+    height: 31.18%;
+    width: 4.95%;
+    top: 34%;
+    right: 8.07%;
+    bottom: 34.82%;
+    left: 86.98%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.rechercher4 {
+    position: absolute;
+    top: 48px;
+    left: 312px;
+    width: 350px;
+    height: 50px;
+    color: var(--color-darkslateblue);
+}
+
+.profile-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-lavender);
+    width: 42px;
+    height: 40px;
+}
+
+.vector-icon {
+    position: absolute;
+    height: 47.5%;
+    width: 42.86%;
+    top: 25%;
+    right: 28.57%;
+    bottom: 27.5%;
+    left: 28.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.profile,
+.vector-icon1 {
+    position: absolute;
+    top: 50px;
+    left: 1316px;
+    width: 42px;
+    height: 40px;
+}
+
+.vector-icon1 {
+    height: 45%;
+    width: 47.62%;
+    top: 27.5%;
+    right: 26.19%;
+    bottom: 27.5%;
+    left: 26.19%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.inbox {
+    position: absolute;
+    top: 50px;
+    left: 1231px;
+    width: 42px;
+    height: 40px;
+}
+
+.nav-elements-inner {
+    position: absolute;
+    top: 33px;
+    left: 48px;
+    width: 203px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.nav-elements,
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 143px;
+}
+
+nav {
+    color: var(--color-lavender);
+    font-family: var(--font-inter);
+}
+
+.login-desk-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1024px;
+    object-fit: cover;
+}
+
+.lets-get-you,
+.login-with-your {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+}
+
+.login-with-your {
+    top: 54px;
+    left: 41px;
+    font-size: var(--font-size-mini);
+    text-align: center;
+}
+
+.form-title {
+    position: absolute;
+    top: 0;
+    left: 17px;
+    width: 276px;
+    height: 77px;
+    font-size: 36px;
+}
+
+.tapez {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-lavender);
+    width: 315px;
+    height: 50px;
+}
+
+.rechercher {
+    top: 150px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 315px;
+    color: var(--color-darkslateblue);
+    font-family: var(--font-inter);
+}
+
+.rechercher,
+.rechercher1,
+.the-search2 {
+    position: absolute;
+    left: 0;
+    height: 50px;
+}
+
+.rechercher1 {
+    top: 215px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 315px;
+    color: var(--color-darkslateblue);
+    font-family: var(--font-inter);
+}
+
+.the-search2 {
+    top: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-darkslateblue);
+    width: 262px;
+}
+
+.tapez2 {
+    position: absolute;
+    top: 15px;
+    left: 101px;
+}
+
+.rechercher2,
+.the-search3 {
+    position: absolute;
+    width: 262px;
+    height: 50px;
+}
+
+.rechercher2 {
+    top: 290px;
+    left: 27px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.the-search3 {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-lavender);
+}
+
+.tapez3 {
+    position: absolute;
+    top: 14px;
+    left: 70px;
+    font-weight: 600;
+}
+
+.google-1-icon {
+    position: absolute;
+    top: 11px;
+    left: 24px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+
+.rechercher3 {
+    position: absolute;
+    top: 350px;
+    left: 27px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 262px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.you-dont-have {
+    position: absolute;
+    top: 442px;
+    left: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    text-align: center;
+    cursor: pointer;
+}
+
+.saly-35-icon,
+.the-form {
+    position: absolute;
+    top: 298px;
+    left: 948px;
+    width: 350px;
+    height: 462px;
+}
+
+.saly-35-icon {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.saly-35 {
+    position: absolute;
+    top: 297px;
+    left: 105px;
+    width: 466px;
+    height: 486px;
+}
