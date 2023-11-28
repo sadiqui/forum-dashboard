@@ -1,58 +1,60 @@
-# forum-dashboard - Backend Development
+# Marionette Forum - Interface + Développement Backend
 
-## Project Overview
+## Présentation du Projet
 
-As part of the frontend development team at Innovation Technologies, we have already proposed a web application idea with its features, and the frontend part has been approved by the client. Our current objective is to design and develop the backend portion of the website to enhance content management.
+En tant que membre de l'équipe de développement frontend chez Innovation Technologies, nous avons déjà proposé une idée d'application web avec ses fonctionnalités, et la partie frontend a été approuvée par le client. Notre objectif actuel est de concevoir et développer la partie backend du site pour améliorer la gestion du contenu.
 
-## Objectives
+## Objectifs
 
-1. **Database Design:**
-   - Design a database schema that meets the site's requirements.
-   - Create UML diagrams describing entities, relationships, and constraints.
+2. **Conception de l'interface du forum :**
+   - Développer une page web from scratch qui présente une interface utilisateur soignée et une expérience utilisateur optimale.
+   - Une page qui s'adaptant à toutes les tailles d'écran et dispositifs.
 
-2. **Dashboard Development:**
-   - Write PHP and SQL scripts (using MySQLi) to implement a dashboard allowing CRUD operations for at least three entities.
-   - Provide clear and concise comments and documentation for each PHP script.
+1. **Conception de la Base de Données :**
+   - Concevoir un schéma de base de données répondant aux besoins du site.
+   - Réaliser des diagrammes UML décrivant les entités, les relations et les contraintes.
 
-3. **Performance and Robustness:**
-   - Ensure system performance and robustness by conducting load tests.
-   - Optimize SQL queries for a smooth user experience.
+2. **Développement du Tableau de Bord - Forum du Lycée Marionette :**
+   - Écrire des scripts PHP et SQL (en utilisant MySQLi) pour mettre en place un tableau de bord permettant le CRUD pour au moins trois entités.
+   - Inclure des fonctionnalités de connexion et d'inscription.
 
-## User Stories for Content Manager
+3. **Performance et Robustesse :**
+   - Assurer la performance et la robustesse du système en effectuant des tests de charge.
+   - Optimiser les requêtes SQL pour garantir une expérience utilisateur fluide.
 
-As an administrator of the platform, the following features should be implemented in the Content Manager:
+## Histoires Utilisateur pour le Gestionnaire de Contenu
 
-1. **Entity Management:**
-   - Add, modify, and delete all entities proposed in the UML diagram.
+En tant qu'administrateur de la plateforme du lycée Marionette, les fonctionnalités suivantes doivent être implémentées dans le Gestionnaire de Contenu :
 
-2. **Data Listing:**
-   - List data in a clear and organized manner.
+1. **Gestion des Entités :**
+   - Ajouter, modifier et supprimer toutes les entités proposées dans le diagramme UML.
 
-3. **Statistics Visualization:**
-   - Access visual statistics to evaluate the platform's status.
+2. **Liste des Données :**
+   - Pouvoir lister les données de manière claire et ordonnée.
 
-4. **Intuitive Interface:**
-   - Have a user-friendly interface with forms to facilitate content management.
+3. **Visualisation des Statistiques :**
+   - Avoir accès à des statistiques visuelles pour évaluer l'état de la plateforme.
 
-## Getting Started
+4. **Interface Intuitive :**
+   - Disposer d'une interface conviviale avec des formulaires pour faciliter la gestion du contenu.
+   - Inclure des fonctionnalités de connexion et d'inscription.
 
-1. **Database Configuration:**
-   - Ensure you have a MySQL database configured with the parameters specified in the configuration file.
+## Démarrage
 
-2. **PHP and SQL Scripts:**
-   - Place the PHP scripts in the appropriate directory on the server.
-   - Execute the SQL scripts to initialize the database.
+1. **Configuration de la Base de Données :**
+   - Assurez-vous d'avoir une base de données MySQL configurée avec les paramètres spécifiés dans le fichier de configuration.
 
-3. **Load Testing:**
-   - Use the specified load testing tools in the documentation to assess system performance.
+2. **Scripts PHP et SQL :**
+   - Placez les scripts PHP dans le répertoire approprié sur le serveur & Exécutez les scripts SQL pour initialiser la BD.
 
-4. **Documentation:**
-   - Refer to the provided documentation for detailed instructions on each feature and script.
+3. **Tests de Charge :**
+   - Utilisez les outils de test de charge spécifiés dans la documentation pour évaluer les performances du système.
 
-## Technical Details
+4. **Documentation :**
+   - Référez-vous à la documentation fournie pour des instructions détaillées sur chaque fonctionnalité et script.
 
-Include any additional technical details, dependencies, or specific instructions needed for development, deployment, and maintenance.
+## Technologies Utilisées
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+   - Frontend : HTML5 + CSS3 (Bootstrap) + JavaScript.
+   - Backend : PHP + MySQLi + MySQL + SQL + XAMPP.
+   - Planification : Trello & Jira Softwares.
