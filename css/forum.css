@@ -963,7 +963,7 @@ nav {
     top: 111px;
     left: 51px;
     border-radius: var(--br-mini);
-    background-color: var(--color-darkslategray);
+    background-color: orange;
     width: 47px;
     height: 47px;
 }
@@ -1135,7 +1135,7 @@ nav {
     top: 0;
     left: 87px;
     border-radius: var(--br-mini);
-    background-color: var(--color-darkslategray);
+    background-color: orange;
     width: 110px;
     height: 110px;
 }
@@ -1290,7 +1290,7 @@ nav {
 
 .search29 {
     border-radius: var(--br-3xs);
-    background-color: #696969;
+    background-color: orange;
     width: 32px;
     height: 32px;
 }
@@ -1319,7 +1319,7 @@ nav {
 .search30 {
     top: 0;
     border-radius: var(--br-3xs);
-    background-color: #8b4513;
+    background-color: orange;
     width: 32px;
 }
 
@@ -1332,7 +1332,7 @@ nav {
 .search31 {
     top: 0;
     border-radius: var(--br-3xs);
-    background-color: #ff0;
+    background-color: orange;
     width: 32px;
 }
 
@@ -1353,7 +1353,7 @@ nav {
 .search32 {
     top: 0;
     border-radius: var(--br-3xs);
-    background-color: #f0f;
+    background-color: orange;
     width: 32px;
 }
 
@@ -1366,7 +1366,7 @@ nav {
 .search33 {
     top: 0;
     border-radius: var(--br-3xs);
-    background-color: #0ff;
+    background-color: orange;
     width: 32px;
 }
 
@@ -1387,7 +1387,7 @@ nav {
 .search34 {
     top: 0;
     border-radius: var(--br-3xs);
-    background-color: teal;
+    background-color: orange;
     width: 32px;
 }
 
@@ -1400,7 +1400,7 @@ nav {
 .search35 {
     top: 0;
     border-radius: var(--br-3xs);
-    background-color: purple;
+    background-color: orange;
     width: 32px;
 }
 
@@ -1420,7 +1420,7 @@ nav {
 .search36 {
     top: 0;
     border-radius: var(--br-3xs);
-    background-color: olive;
+    background-color: orange;
     width: 32px;
 }
 
