@@ -49,7 +49,7 @@
 
 .nav-elements-child {
     background-color: var(--color-darkslateblue);
-    height: 140px;
+    height: 150px;
 }
 
 .accueil1 {
@@ -61,7 +61,7 @@
 
 .accueil {
     position: absolute;
-    top: 61px;
+    top: 95px;
     left: 739px;
     width: 53px;
     height: 18px;
@@ -76,7 +76,7 @@
 .activits4,
 .the-search {
     position: absolute;
-    top: 61px;
+    top: 95px;
     width: 63px;
     height: 18px;
 }
@@ -99,7 +99,7 @@
     border-radius: var(--br-mini);
     background-color: var(--color-lavender);
     width: 350px;
-    height: 50px;
+    height: 40px;
 }
 
 .tapez:focus,
@@ -124,20 +124,20 @@
 
 .search {
     top: 5px;
-    left: 290px;
+    left: 305px;
     border-radius: var(--br-mini);
     background-color: var(--color-darkslateblue);
-    width: 47px;
-    height: 40px;
+    width: 35px;
+    height: 30px;
 }
 
 .s-icon {
     height: 31%;
     width: 5%;
-    top: 34%;
+    top: 25%;
     right: 8%;
     bottom: 35%;
-    left: 87%;
+    left: 89%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
@@ -145,7 +145,7 @@
 
 .rechercher {
     position: absolute;
-    top: 48px;
+    top: 85px;
     left: 312px;
     width: 350px;
     height: 50px;
@@ -158,8 +158,8 @@
     left: 0;
     border-radius: var(--br-mini);
     background-color: var(--color-lavender);
-    width: 42px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .vector-icon {
@@ -169,7 +169,7 @@
     top: 25%;
     right: 28.57%;
     bottom: 27.5%;
-    left: 28.57%;
+    left: 20%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
@@ -178,7 +178,7 @@
 .profile,
 .vector-icon1 {
     position: absolute;
-    top: 50px;
+    top: 90px;
     left: 1316px;
     width: 42px;
     height: 40px;
@@ -198,7 +198,7 @@
 
 .inbox {
     position: absolute;
-    top: 50px;
+    top: 90px;
     left: 1231px;
     width: 42px;
     height: 40px;
@@ -206,7 +206,7 @@
 
 .nav-elements-item {
     position: absolute;
-    top: 33px;
+    top: 70px;
     left: 48px;
     width: 203px;
     height: 80px;
@@ -223,8 +223,8 @@
 }
 
 .navbar-child {
-    top: 142px;
-    left: 941px;
+    top: 152px;
+    left: 950px;
     border-top: 1.5px solid var(--color-mediumslateblue);
     box-sizing: border-box;
     width: 46.5px;
@@ -234,7 +234,7 @@
 .left,
 nav {
     position: absolute;
-    top: 0;
+    top: -70px;
     left: 0;
 }
 
@@ -248,7 +248,7 @@ nav {
     border-right: 1.5px solid var(--color-darkslateblue-200);
     box-sizing: border-box;
     width: 308px;
-    height: 942px;
+    height: 1070px;
     opacity: 0.5;
 }
 
@@ -611,7 +611,7 @@ nav {
 .lesft-side,
 .the-adding {
     position: absolute;
-    top: 140px;
+    top: 80px;
     left: 0;
     width: 308px;
     height: 942px;
@@ -952,9 +952,10 @@ nav {
 
 .disc-2 {
     top: 0;
-    border-radius: var(--br-mini) var(--br-mini) 0 0;
+    border-radius: var(--br-mini);
     background-color: var(--color-white);
-    height: 379px;
+    width: 710px;
+    height: 424px;
 }
 
 .search21,
@@ -1033,7 +1034,7 @@ nav {
 
 .react-2 {
     position: absolute;
-    top: 311px;
+    top: 315px;
     left: 548px;
     width: 114px;
     height: 67px;
@@ -1096,7 +1097,7 @@ nav {
 }
 
 .main {
-    top: 181px;
+    top: 105px;
     left: 365px;
     height: 901px;
 }
@@ -1112,7 +1113,7 @@ nav {
     border-left: 1.5px solid var(--color-darkslateblue-200);
     box-sizing: border-box;
     width: 308px;
-    height: 942px;
+    height: 1050px;
     opacity: 0.5;
 }
 
@@ -1283,6 +1284,7 @@ nav {
 }
 
 .members {
+    top: 10px;
     width: 134px;
     height: 25px;
     color: var(--color-gray-100);
@@ -1303,7 +1305,7 @@ nav {
 }
 
 .pers-1 {
-    top: 45px;
+    top: 55px;
     width: 150px;
 }
 
@@ -1325,7 +1327,7 @@ nav {
 
 .pers-2,
 .search31 {
-    top: 97px;
+    top: 107px;
     width: 175px;
 }
 
@@ -1337,7 +1339,7 @@ nav {
 }
 
 .pers-3 {
-    top: 149px;
+    top: 159px;
     width: 150px;
 }
 
@@ -1359,7 +1361,7 @@ nav {
 
 .pers-4,
 .search33 {
-    top: 201px;
+    top: 211px;
     width: 175px;
 }
 
@@ -1371,7 +1373,7 @@ nav {
 }
 
 .pers-5 {
-    top: 253px;
+    top: 263px;
     width: 175px;
 }
 
@@ -1393,7 +1395,7 @@ nav {
 
 .pers-6,
 .search35 {
-    top: 305px;
+    top: 315px;
     width: 175px;
 }
 
@@ -1405,12 +1407,14 @@ nav {
 }
 
 .pers-7 {
-    top: 357px;
+    top: 367px;
     width: 175px;
 }
 
 .pers-7,
 .pers-8,
+.pers-9,
+.pers-10,
 .search36 {
     position: absolute;
     left: 0;
@@ -1425,8 +1429,32 @@ nav {
 }
 
 .pers-8 {
-    top: 409px;
+    top: 519px;
     width: 175px;
+}
+
+.search37 {
+    top: 0;
+    border-radius: var(--br-3xs);
+    background-color: orange;
+    width: 32px;
+}
+
+.pers-9 {
+    top: 419px;
+    width: 175px;
+}
+
+.search38 {
+    top: 0;
+    border-radius: var(--br-3xs);
+    background-color: orange;
+    width: 32px;
+}
+
+.pers-10 {
+    top: 470px;
+    width: 200px;
 }
 
 .right-side,
@@ -1440,7 +1468,7 @@ nav {
 }
 
 .right-side {
-    top: 140px;
+    top: 75px;
     left: 1132px;
     width: 308px;
     height: 942px;
