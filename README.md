@@ -38,6 +38,16 @@ En tant qu'administrateur de la plateforme du lycée Marionette, les fonctionnal
 4. **Interface Intuitive :**
    - Disposer d'une interface conviviale avec des formulaires pour faciliter la gestion du contenu.
    - Inclure des fonctionnalités de connexion et d'inscription.
+  
+## Exemple du tableau : members
+
+| Colonne   | Type         | Null | Key | Extra                     |
+|:----------|:-------------|:-----|:----|:--------------------------|
+| id        | INT(10)      | NO   | PRI | AUTO_INCREMENT            |
+| f_name    | VARCHAR(100) |      |     |                           |
+| l_name    | VARCHAR(100) |      |     |                           |
+| email     | VARCHAR(100) |      |     |                           |
+| gender    | VARCHAR(20)  |      |     |                           |
 
 ## Démarrage
 
@@ -50,11 +60,11 @@ En tant qu'administrateur de la plateforme du lycée Marionette, les fonctionnal
 3. **Tests de Charge :**
    - Utilisez les outils de test de charge spécifiés dans la documentation pour évaluer les performances du système.
 
-4. **Documentation :**
-   - Référez-vous à la documentation fournie pour des instructions détaillées sur chaque fonctionnalité et script.
-
 ## Technologies Utilisées
 
    - Frontend : HTML5 + CSS3 (Bootstrap) + JavaScript.
    - Backend : PHP + MySQLi + MySQL + SQL + XAMPP.
    - Planification : Trello & Jira Softwares.
+
+
+> :warning: **don't forget to give it a star**
